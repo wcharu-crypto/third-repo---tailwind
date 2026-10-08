@@ -38,12 +38,13 @@
   --color-cream-300: #D8D6CE;
   --color-ink:       #26251e;
   --color-ink-50:    rgba(38, 37, 30, 0.5);
+  --color-card-400:#5750DB;
 
   /* ── Semantic — purpose-based, reference primitives ──
    * These are the tokens you use in components.
    * e.g. --color-surface → bg-surface, --color-text-primary → text-text-primary */
-  --color-surface:        var(--color-cream-50);
-  --color-card:           var(--color-cream-100);
+  --color-surface:        var(--color-cream-300);
+  --color-card:           var(--color-card-400);
   --color-text-primary:   var(--color-ink);
   --color-text-muted:     var(--color-ink-50);
   --color-text-secondary: var(--color-gray-500);
